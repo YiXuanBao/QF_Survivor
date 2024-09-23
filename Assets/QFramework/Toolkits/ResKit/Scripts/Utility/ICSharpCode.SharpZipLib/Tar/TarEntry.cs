@@ -336,7 +336,7 @@ namespace ICSharpCode.SharpZipLib.Tar
 
 			this.file = file;
 
-			// bugfix from torhovl from #D forum:
+			// bQFix from torhovl from #D forum:
 			string name = file;
 
 			// 23-Jan-2004 GnuTar allows device names in path where the name is not local to the current directory

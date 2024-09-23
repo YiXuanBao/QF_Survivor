@@ -40,7 +40,7 @@ namespace UniRx.Diagnostics
         }
 
         /// <summary>Output LogType.Log but only enables isDebugBuild</summary>
-        public virtual void DebugFormat(string format, params object[] args)
+        public virtual void DebQFormat(string format, params object[] args)
         {
             if (!isInitialized)
             {
